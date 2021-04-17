@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>7th Coding Assignment</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-screen screen">
+        <header class="control-header">
+          <i class="fas fa-arrow-left fa-2x"></i>
+          <i class="fas fa-search fa-2x"></i>
+        </header>
+        <main class="player-main">
+          <div class="artist-info">
+            <img class="artist-info__picture" src="img/iu_profile.png" />
+            <h1 class="artist-info__name">IU</h1>
+            <h3 class="artist-info__genre">K-Pop, Contemporary R&B</h3>
+          </div>
+          <div class="option-buttons">
+            <div class="option-buttons__shuffle option-buttons__element">
+              <span class="option-buttons__text">Shuffle</span>
+            </div>
+            <div class="option-buttons__heart option-buttons__element">
+              <span class="option-buttons__text"
+                ><i class="fas fa-heart"></i> 127,599</span
+              >
+            </div>
+          </div>
+          <div class="song-element">
+            <img class="song-element__picture" src="img/lilac.jpeg" />
+            <div class="song-element__info">
+              <span class="song-element__info__artist">IU</span>
+              <span class="song-element__info__title">Lilac</span>
+            </div>
+            <i class="fas fa-ellipsis-v fa-2x"></i>
+          </div>
+          <div class="song-element">
+            <img class="song-element__picture" src="img/celebrity.jpeg" />
+            <div class="song-element__info">
+              <span class="song-element__info__artist">IU</span>
+              <span class="song-element__info__title">Celebrity</span>
+            </div>
+            <i class="fas fa-ellipsis-v fa-2x"></i>
+          </div>
+          <div class="song-element">
+            <img class="song-element__picture" src="img/chatshire.jpeg" />
+            <div class="song-element__info">
+              <span class="song-element__info__artist">IU</span>
+              <span class="song-element__info__title">스물셋</span>
+            </div>
+            <i class="fas fa-ellipsis-v fa-2x"></i>
+          </div>
+          <div class="song-element">
+            <img class="song-element__picture" src="img/friday.jpeg" />
+            <div class="song-element__info">
+              <span class="song-element__info__artist">IU</span>
+              <span class="song-element__info__title">금요일에 만나요</span>
+            </div>
+            <i class="fas fa-ellipsis-v fa-2x"></i>
+          </div>
+          <div class="song-element">
+            <img class="song-element__picture" src="img/real.jpg" />
+            <div class="song-element__info">
+              <span class="song-element__info__artist">IU</span>
+              <span class="song-element__info__title">좋은 날</span>
+            </div>
+            <i class="fas fa-ellipsis-v fa-2x"></i>
+          </div>
+        </main>
+        <div class="now-playing">
+          <div class="now-playing__info">
+            <span class="now-playing__artist">IU</span>
+            <span class="now-playing__title">Lilic</span>
+          </div>
+          <div class="now-playing__control">
+            <i class="fas fa-backward fa-2x"></i>
+            <i class="fas fa-pause fa-2x"></i>
+            <i class="fas fa-forward fa-2x"></i>
+          </div>
+        </div>
+      </div>
+      <div class="right-screen screen">
+        <header class="control-header">
+          <i class="fas fa-arrow-left fa-2x"></i>
+          <i class="fas fa-ellipsis-v fa-2x"></i>
+        </header>
+        <main class="now-main">
+          <img class="now__picture" src="img/lilac.jpeg" />
+          <h2 class="now__title">Lilic</h2>
+          <h5 class="now__artist">IU</h5>
+          <div class="now__playbar">
+            <div class="now__playbar__time">
+              <span class="start_time">0:00</span>
+              <span class="end_time">3:37</span>
+            </div>
+            <input class="slider" type="range" min="0" max="217" value="0" />
+          </div>
+          <div class="now__controller">
+            <i class="fas fa-redo control-option fa-2x"></i>
+            <i class="fas fa-backward fa-2x"></i>
+            <div class="now__play__circle">
+              <i class="fas fa-play fa-3x"></i>
+            </div>
+            <i class="fas fa-forward fa-2x"></i>
+            <i class="fas fa-random control-option fa-2x"></i>
+          </div>
+        </main>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/b9803d49d0.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

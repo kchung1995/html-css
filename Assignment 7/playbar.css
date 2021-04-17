@@ -1,0 +1,29 @@
+.now__playbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px;
+}
+
+.now__playbar__time {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0px 15px;
+}
+
+.now__playbar__time span {
+  display: block;
+  font-size: 23px;
+  text-align: center;
+}
+
+.slider {
+  width: 95%;
+  background: rgba(0, 0, 0, 0.7);
+  border: none;
+}
