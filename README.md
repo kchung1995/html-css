@@ -19,7 +19,7 @@ Assignments:
 
 Final Project: KokoaTalk (KakaoTalk Design Cloning)
 
-- TBD
+- https://kchung1995.github.io/html-css/
 
 이 저장소는 Nomad Coders의 HTML-CSS 강의를 들으며 작성한 제 코드를 저장하는 장소입니다.  
 강의를 들으며, 저는 HTML과 CSS의 기초와 활용에 대해 배웠습니다.  
